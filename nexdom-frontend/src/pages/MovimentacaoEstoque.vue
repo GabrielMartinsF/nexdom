@@ -23,7 +23,7 @@
       </q-card>
     </div>
 
-    <!-- caso existam produtos cadastrados -->
+    <!-- caso existam movimentações cadastrados -->
     <div class="q-pa-md" v-else>
       <div class="header row justify-end q-gutter-xs">
         <q-btn color="secondary" icon-right="add" label="Nova movimentação" @click="openModalMovimentacao()"/>
