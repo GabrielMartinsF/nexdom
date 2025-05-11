@@ -1,0 +1,16 @@
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\config\CorsConfig.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\config\SwaggerConfig.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\controllers\MovimentoEstoqueController.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\controllers\ProdutoController.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\dto\ProdutoLucroDTO.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\dto\ProdutoResumoDTO.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\entities\MovimentoEstoque.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\entities\Produto.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\enums\TipoMovimentacao.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\enums\TipoProduto.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\error\SaldoInsuficienteException.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\NexdomDesafioApplication.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\repositories\MovimentoEstoqueRepository.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\repositories\ProdutoRepository.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\services\MovimentoEstoqueService.java
+C:\dev\nexdom\nexdom-backend\src\main\java\com\example\nexdom_desafio\services\ProdutoService.java

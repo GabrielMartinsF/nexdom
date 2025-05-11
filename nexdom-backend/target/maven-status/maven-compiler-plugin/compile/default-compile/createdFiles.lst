@@ -1,0 +1,17 @@
+com\example\nexdom_desafio\entities\MovimentoEstoque.class
+com\example\nexdom_desafio\config\SwaggerConfig.class
+com\example\nexdom_desafio\enums\TipoMovimentacao.class
+com\example\nexdom_desafio\dto\ProdutoLucroDTO.class
+com\example\nexdom_desafio\services\MovimentoEstoqueService.class
+com\example\nexdom_desafio\controllers\MovimentoEstoqueController.class
+com\example\nexdom_desafio\error\SaldoInsuficienteException.class
+com\example\nexdom_desafio\entities\Produto.class
+com\example\nexdom_desafio\NexdomDesafioApplication.class
+com\example\nexdom_desafio\config\CorsConfig$1.class
+com\example\nexdom_desafio\services\ProdutoService.class
+com\example\nexdom_desafio\repositories\MovimentoEstoqueRepository.class
+com\example\nexdom_desafio\config\CorsConfig.class
+com\example\nexdom_desafio\controllers\ProdutoController.class
+com\example\nexdom_desafio\enums\TipoProduto.class
+com\example\nexdom_desafio\repositories\ProdutoRepository.class
+com\example\nexdom_desafio\dto\ProdutoResumoDTO.class
