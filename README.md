@@ -1,49 +1,73 @@
 # Nexdom - Desafio Fullstack
 
-Backend: Spring Boot (Java 17)
+## 🛠️ Tecnologias Utilizadas
 
-Frontend: Quasar Framework (Vue 3)
+- **Backend:** Spring Boot (Java 17)
+- **Frontend:** Quasar Framework (Vue 3)
+- **Banco de Dados:** H2 (em memória)
+- **Containerização:** Docker e Docker Compose
 
-Banco de Dados: H2 (em memória)
+---
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
+```
 nexdom/
-├── nexdom-backend/      # Backend em Spring Boot
-├── nexdom-frontend/     # Frontend em Quasar
-├── docker-compose.yml   # Orquestração dos containers
+├── nexdom-backend/     # Backend em Spring Boot
+├── nexdom-frontend/    # Frontend em Quasar
+└── docker-compose.yml  # Orquestração dos containers
+```
 
-🚀 Como Executar
+---
 
-Pré-requisitos
+## 🚀 Como Executar o Projeto
 
-Docker e Docker Compose
+### ✅ Pré-requisitos
 
-Execução com Docker
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
-## Clone o repositório
+---
+
+### ▶️ Execução com Docker
+
+1. **Clone o repositório:**
+
+```bash
 git clone https://github.com/seu-usuario/nexdom.git
 cd nexdom
+```
 
-## Construa os containers
+2. **Construa os containers:**
+
+```bash
 docker-compose build
+```
 
-## Suba os serviços
+3. **Suba os serviços:**
+
+```bash
 docker-compose up
+```
 
-Backend: http://localhost:8080
+- Backend disponível em: [http://localhost:8080](http://localhost:8080)
+- Frontend disponível em: [http://localhost:9000](http://localhost:9000)
 
-Frontend: http://localhost:9000
+---
 
-Execução Manual (sem Docker)
+### 🔧 Execução Manual (sem Docker)
 
-Backend
+#### Backend
 
+```bash
 cd nexdom-backend
 ./mvnw spring-boot:run
+```
 
-Frontend
+#### Frontend
 
+```bash
 cd nexdom-frontend
 yarn install
 quasar dev
+```
