@@ -1,4 +1,4 @@
-Nexdom - Desafio Fullstack
+# Nexdom - Desafio Fullstack
 
 Backend: Spring Boot (Java 17)
 
@@ -21,14 +21,14 @@ Docker e Docker Compose
 
 Execução com Docker
 
-# Clone o repositório
+## Clone o repositório
 git clone https://github.com/seu-usuario/nexdom.git
 cd nexdom
 
-# Construa os containers
+## Construa os containers
 docker-compose build
 
-# Suba os serviços
+## Suba os serviços
 docker-compose up
 
 Backend: http://localhost:8080
