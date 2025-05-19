@@ -174,11 +174,10 @@ function formatarData(val) {
 }
 
 function formatarDataEn(val) {
-  const data = new Date(val);
-  const ano = data.getFullYear();
-  const mes = String(data.getMonth() + 1).padStart(2, '0');
-  const dia = String(data.getDate()).padStart(2, '0');
-  return `${ano}-${mes}-${dia}`;
+  const [dia, mes, ano] = val.split('/');
+  const diaFormatado = dia.padStart(2, '0');
+  const mesFormatado = mes.padStart(2, '0');
+  return `${ano}-${mesFormatado}-${diaFormatado}`;
 }
 
 const validarQuantidade = (val) => {
